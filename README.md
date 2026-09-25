@@ -36,8 +36,8 @@ Since everything runs client-side, no installation is required.
 
 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/ai-rps.git
-cd ai-rps
+git clone https://github.com/connorstratton/AI_RPS.git
+cd AI_RPS
 ```
 2. Serve the folder locally (needed for the webcam/model fetch to work — opening `index.html` directly can cause browser restrictions)
 ```bash
