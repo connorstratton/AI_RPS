@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teachable AI Rock, Paper, Scissors</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body id="bg" style="background-color: white;">
+        <div class="container">
+            <div><h1>Teachable AI Rock, Paper, Scissors</h1></div>
+            <button id="start-button" type="button" class="ourButton" onclick="init()">Start</button>
+            <br>
+            <div style="display: flex; align-items: center;">
+                <div id="webcam-container"></div>
+                <img id="computer-choice" style="margin-left: 0px" src="images/aiHand.jpg">
+            </div>
+            <br>
+            <div id="label-container"></div>
+            <div id="results">Round Result:</div>
+            <br>
+            <div id="record">Record: </div>
+            <br>
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+            <script src="home.js"></script>
+            <script>
+                const rockHand = "images/rockHand.jpg";
+                const paperHand = "images/paperHand.jpg";
+                const scissorsHand = "images/scissorsHand.jpg";
+            </script>
+        </div>
+    </body>
+</html>
