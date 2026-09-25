@@ -8,7 +8,7 @@ This project was created for a Python Machine Learning camp I taught at [theCode
 
 ## Demo
 
-![Click here to try](https://connorstratton.github.io/AI_RPS/)
+[Click here to try](https://connorstratton.github.io/AI_RPS/)
 
 ## Project structure
 
