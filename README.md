@@ -1,6 +1,6 @@
 # Teachable Machine Rock Paper Scissors
 
-### Year: 2026
+### Year: 2024
 
 ## Overview
 
